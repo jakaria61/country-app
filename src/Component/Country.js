@@ -7,7 +7,7 @@ const Country = (props) => {
                 
             <div className="card">
             <h3>{props.post.name}</h3>
-            <img src={props.post.flag}/><br/>
+            <img src={props.post.flag} alt=""/><br/>
            <Link to={`/CountryDetails/${props.post.name}`}> <button type="button" class="btn btn-success">Show Details</button></Link>
 
             </div>
